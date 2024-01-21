@@ -26,3 +26,8 @@ function takeWhile (arr, pred) {
 }
 
 // or
+
+const takeWhile = (arr, pred) => {
+  const index = arr.findIndex((value) => !pred(value));
+  return index === -1 ? arr : arr.slice(0, index);
+};
