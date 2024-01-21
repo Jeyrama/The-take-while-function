@@ -24,3 +24,5 @@ function takeWhile (arr, pred) {
   }
   return arr
 }
+
+// or
