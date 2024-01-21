@@ -17,3 +17,10 @@ Your task is to implement the takeWhile function.
 
 
 // Solution
+
+function takeWhile (arr, pred) {
+  for(i=0; i < arr.length; i++) {
+    if(!pred(arr[i])) return arr.slice(0,i);
+  }
+  return arr
+}
