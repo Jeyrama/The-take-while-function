@@ -14,3 +14,6 @@ Example:
 
 Your task is to implement the takeWhile function. 
 */
+
+
+// Solution
